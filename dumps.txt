@@ -1,0 +1,80 @@
+body {
+  height: 150vh;
+}
+
+.container-2 {
+  border: 2px solid red;
+  padding: 1em;
+  margin: 2em;
+}
+
+.container {
+  border: 2px solid lightgray;
+  margin: 5rem;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box-1 {
+  background-color: gold;
+}
+
+.box-2 {
+  background-color: chartreuse;
+  position: sticky;
+  top: 2em;
+  right: 0;
+}
+
+.box-3 {
+  background-color: tomato;
+}
+
+ <article class="tweet clearfix">
+      <div class="avatar"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis
+        ipsum incidunt similique, quasi quaerat!
+      </p>
+      <!-- <p class="clear">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, harum
+        facilis. Quisquam eum soluta, eveniet facere sint voluptates, tempora
+        dolore, accusamus harum id ipsam quis nemo? Est provident alias sit
+        accusamus, consectetur tenetur voluptatem delectus, a quidem dolore
+        dolorum facere voluptates nam facilis adipisci veniam sunt cupiditate
+        laborum in asperiores!
+      </p> -->
+    </article>
+
+    .avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 1em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.tweet {
+  border: 2px solid red;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/* transition: 
+1. property that you want to transform 
+2. duration of animation 
+3. animation timing function
+4. delay of animation
+*/
